@@ -12,7 +12,11 @@ class FonepayCustomButton extends StatelessWidget {
     return Container(
       height: 48,
       width: double.infinity,
-      color: Colors.red,
+      margin: const EdgeInsets.symmetric(vertical: 16),
+      decoration: BoxDecoration(
+        color: Colors.red,
+        borderRadius: BorderRadius.circular(16)
+      ),
       child: const Center(
         child: Text(
           'Fonepay Custom Button',
